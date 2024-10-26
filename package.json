@@ -1,0 +1,16 @@
+{
+  "name": "shadowproxy",
+  "version": "1.0.0",
+  "nexe": {
+    "input": "./run.js",
+    "output": "build/your-app",
+    "target": "windows-x64",
+    "resources": [
+      "./assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.41.0",
+    "util": "^0.12.5"
+  }
+}
